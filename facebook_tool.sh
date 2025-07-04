@@ -3,11 +3,37 @@
 # Colors
 red='\e[1;31m'
 yellow='\e[1;33m'
+green='\e[1;32m'
+cyan='\e[1;36m'
 reset='\e[0m'
 
+# Typing effect function
+type_print() {
+    text="$1"
+    delay="${2:-0.03}"
+    for ((i=0; i<${#text}; i++)); do
+        echo -n "${text:$i:1}"
+        sleep $delay
+    done
+    echo
+}
+
+# Fake loading
+clear
+echo -e "${cyan}"
+type_print "[✔] Starting Facebook Tool..." 0.04
+sleep 0.4
+type_print "[✔] Loading modules ████▒▒▒▒▒▒ 40%" 0.03
+sleep 0.5
+type_print "[✔] Connecting to Meta server..." 0.03
+sleep 0.5
+type_print "[✔] Login bypass injected 🔓" 0.03
+sleep 0.5
+type_print "[✔] Tool Ready ✔️" 0.04
+sleep 0.8
 clear
 
-# Final Layout
+# Final Layout Banner
 echo -e "${yellow}===================================="
 echo -e "${red}            NEHAL AHMED’S"
 echo -e "${yellow}===================================="
@@ -31,6 +57,7 @@ echo -e "6. FOLLOW"
 echo -ne "${red}Please select your option (1-6): ${reset}"
 read choice
 
+# Menu Actions
 case $choice in
   1|2)
     termux-open-url "https://www.instagram.com/___nehal___77?igsh=Nnlqd3JncWhnMnlr"
