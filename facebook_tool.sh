@@ -7,18 +7,18 @@ reset='\e[0m'
 
 clear
 
-# Header
-echo -e "${yellow} ===================================="
+# Final Layout
+echo -e "${yellow}===================================="
 echo -e "${red}            NEHAL AHMED’S"
 echo -e "${yellow}===================================="
-echo -e "${yellow}Facebook Tool"
+echo -e "${yellow}            FACEBOOK TOLL"
 echo -e "VIEW, LIKE, FOLLOW, COMENT"
 echo -e "${yellow}======================================"
-echo -e "TOLL OWNERS ID"
+echo -e "           TOLL OWNERS ID"
 echo -e "FB: Nehal Ahmed"
 echo -e "INSTA: ___nehal___77"
 echo -e "${yellow}===================================="
-echo -e "${red}NOTE  Eii Toll Free Te Chole Na🥹"
+echo -e "${red}NOTE: Eii Toll Free Te Chole Na👍"
 echo -e " Subscribtion nite hobe 😗"
 echo -e "${yellow}===================================="
 echo -e "Please select your option 👇"
