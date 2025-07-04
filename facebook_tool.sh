@@ -7,7 +7,7 @@ reset='\e[0m'
 
 clear
 
-# Layout start
+# Header
 echo -e "${yellow} ===================================="
 echo -e "${red}            NEHAL AHMED’S"
 echo -e "${yellow}===================================="
