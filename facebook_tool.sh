@@ -7,20 +7,21 @@ reset='\e[0m'
 
 clear
 
-# Banner Section (no [=] shown)
+# Banner Section
 echo -e "${yellow}===================================="
-printf "${red}%*s\n" $((($(tput cols) + 14) / 2)) "NEHAL AHMED’S"
+echo -e "${red}NEHAL AHMED’S"
 echo -e "${yellow}===================================="
-printf "${yellow}%*s\n" $((($(tput cols) + 14) / 2)) "Facebook Tool"
-printf "${yellow}%*s\n" $((($(tput cols) + 30) / 2)) "VIEW, LIKE, FOLLOW, COMENT"
+echo -e "${yellow}Facebook Tool"
+echo -e "${yellow}VIEW, LIKE, FOLLOW, COMENT"
 echo -e "${yellow}===================================="
-printf "${yellow}%*s\n" $((($(tput cols) + 16) / 2)) "TOLL OWNERS ID"
+echo -e "${yellow}TOLL OWNERS ID"
 echo -e "FB: Nehal Ahmed       INSTA: ___nehal___77"
 echo -e "${yellow}===================================="
-printf "${red}%*s\n" $((($(tput cols) + 57) / 2)) "NOTE  Eii Toll Free Te Chole Na 🥹, Subscribtion nite hobe 😗"
+echo -e "${red}NOTE  Eii Toll Free Te Chole Na 🥹"
+echo -e "${red}Subscribtion nite hobe 😗"
 echo -e "${yellow}===================================="
 echo -e "Please select your option 👇"
-echo -e "1. CONTACT"
+echo -e "${yellow}1. CONTACT"
 echo -e "2. SUBSCRIBTION NITE CHAI"
 echo -e "3. VIEW"
 echo -e "4. LIKE"
